@@ -1,0 +1,133 @@
+/* hero.css */
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62rem;
+  }
+  
+  .hero-section {
+    padding-top: 12rem;
+    margin-top: -5.25rem;
+  }
+  
+  .hero-section-lg-crosses {
+    transform: translateY(5.25rem);
+  }
+  
+  .hero-content {
+    max-width: 62rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 3.875rem;
+  }
+  
+  .hero-title {
+    margin-bottom: 1.5rem;
+    font-size: 2.25rem;
+  }
+  
+  .hero-codyssey {
+    position: relative;
+  }
+  
+  .curve-img {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+  
+  .hero-description {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-image-container {
+    position: relative;
+    max-width: 23rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-image {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: conic-gradient(#FFFFFF, #000000);
+  }
+  
+  .hero-img {
+    width: 100%;
+    transform: scale(1.7) translateY(8%);
+  }
+  
+  .hero-icons {
+    position: absolute;
+    left: -5.5rem;
+    bottom: -7.5rem;
+    padding: 0.25rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .hero-icon {
+    padding: 1rem;
+  }
+  
+  .hero-notification {
+    position: absolute;
+    right: -5.5rem;
+    bottom: -11rem;
+    width: 18rem;
+  }
+  
+  .hero-bg-image {
+    position: absolute;
+    top: -54%;
+    left: 50%;
+    width: 234%;
+    transform: translateX(-50%);
+  }
+  
+  .bg-img {
+    width: 100%;
+  }
+  
+  .hero-company-logos {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-content {
+      margin-bottom: 6.25rem;
+    }
+  
+    .hero-description {
+      max-width: none;
+    }
+  
+    .hero-image-container {
+      max-width: 50rem;
+    }
+  
+    .hero-notification {
+      right: auto;
+      left: 50%;
+      transform: translateX(50%);
+    }
+  
+    .hero-company-logos {
+      display: block;
+      position: relative;
+      z-index: 10;
+      margin-top: 20px;
+    }
+  }
+  

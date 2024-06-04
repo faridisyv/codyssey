@@ -1,0 +1,66 @@
+/* LanguagePage.css */
+
+/* Styles for the <h1> element */
+.page-title {
+    font-size: 3rem; /* Adjust the font size as needed */
+    font-family: 'Arial', sans-serif; /* Change the font family as desired */
+    text-align: center; /* Center the text */
+    margin-top: 35px; /* Add margin from the top */
+    padding: 25px;
+    color: #ffffff; /* Set the color of the text */
+    background-image: url('/images/grid.png');
+}
+.hr{
+  color: white;
+}
+.title-link {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Inherit color */
+}
+
+.title-link:hover {
+    color: blue !important; /* Change color on hover */
+}
+
+.title-link h2 {
+    font-weight: bold; /* Make the title bold */
+    margin-top: 10px; /* Add margin from the top */
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-bottom: 20px;
+}
+
+.column {
+    width: calc(33.33% - 20px); /* Adjust based on your design and spacing */
+    margin-top: 50px;
+    
+}
+
+.rectangular-container {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add relative positioning */
+}
+
+/* Vertical line */
+.rectangular-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px; /* Adjust the width of the line */
+    background-color: #ccc; /* Adjust the color of the line */
+}
+
+.container-image {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+/* ProductItem.module.css */
+.productItem {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .productImage {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+    margin-right: 16px;
+  }
+  
+  .productDetails {
+    flex-grow: 1;
+  }
+  
+  .productTitle {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .originalPrice {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .salePrice {
+    color: #e53935; /* Adjust the color to match your design */
+  }
+  

@@ -1,0 +1,143 @@
+/* General styles for the Python page */
+.python-page {
+  display: flex;
+  position: relative;
+  padding-top: 85px; /* Position relative for absolute positioning of search input */
+}
+
+.toggle-sidebar-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 999;
+  padding-top: 80px;
+}
+
+/* Search input styles */
+.search-input {
+  width: 90%; /* Take up full width */
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.search-input:focus {
+  outline: none; /* Remove focus outline */
+  border-color: #007bff; /* Change border color on focus */
+}
+
+.python-sidebar {
+  width: 200px; /* Adjust the width as needed */
+  background-color: gray; /* Sidebar background color */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.python-sidebar h3 {
+  font-size: 24px;
+  margin-bottom: 3px;
+  padding-top: 10px;
+}
+
+.python-content {
+  flex: 1; /* Take up remaining space */
+  background-image: url('/images/grid.png'); /* Content area background color */
+  padding: 20px;
+}
+
+.python-content h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.hidden {
+  transform: translateX(-200px); /* Move sidebar off-screen */
+}
+
+.visible {
+  transform: translateX(0); /* Move sidebar back to its original position */
+}
+
+.content-pages {
+  margin-bottom: 20px;
+}
+
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.prev-button {
+  background-color: #6c757d;
+}
+
+.prev-button:hover {
+  background-color: #5a6268;
+}
+
+.next-button {
+  background-color: #28a745;
+}
+
+.next-button:hover {
+  background-color: #218838;
+}
+
+/* Styles for the Python footer */
+.python-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.python-footer p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.python-footer .take-quiz-button,
+.python-footer .continue-reading-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.python-footer .take-quiz-button:hover,
+.python-footer .continue-reading-button:hover {
+  background-color: #0056b3;
+}
+
+.python-container h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.highlight {
+  background-color: yellow; /* or any color that makes the text stand out */
+  font-weight: bold;
+}
+

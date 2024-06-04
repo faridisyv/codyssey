@@ -1,0 +1,82 @@
+/* SignUp.module.css */
+.signUpPageContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-background);
+  }
+  
+  .signUpBox {
+    background: var(--color-black);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .signUpTitle {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formLabel {
+    color: var(--color-text);
+    font-weight: 600;
+  }
+  
+  .formInput {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  .formInput:focus {
+    border-color: var(--color-primary);
+  }
+  
+  .signUpButton {
+    width: 100%;
+    padding: 0.5rem;
+    background: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .signUpButton:hover {
+    background: blue;
+  }
+  
+  .additionalLinks {
+    margin-top: 1rem;
+    color: var(--color-text);
+  }
+  
+  .linkPrimary {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  
+  /* Define your color variables in :root or a separate variables.css file */
+  :root {
+    --color-background: #n-8; /* Replace with actual color value */
+    --color-black: #000;
+    --color-primary: #yourPrimaryColor; /* Replace with actual color value */
+    --color-primary-dark: #yourPrimaryDarkColor; /* Replace with actual color value */
+    --color-text: #n-1; /* Replace with actual color value */
+    --color-gray-300: #yourGrayColor; /* Replace with actual color value */
+    --color-white: #fff;
+  }
+  
